@@ -5,11 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/models" />
     </content>
-    <orderEntry type="jdk" jdkName="~\miniconda3\envs\fre-6103-mp2-guorong-ji-and-brandon-chen" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.14 (FRE-6103_MP2_Guorong_Ji_and_Brandon_Chen)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
-  <component name="PackageRequirementsSettings" />
-  <component name="PyDocumentationSettings" />
-  <component name="ReSTService" />
-  <component name="TestRunnerService" />
 </module>

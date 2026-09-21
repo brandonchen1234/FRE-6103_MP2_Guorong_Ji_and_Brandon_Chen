@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import least_squares
 
 
-INPUT_FILE = Path("Treasury data 090426.xlsx")
+INPUT_FILE = Path("data/Treasury data 090426.xlsx")
 SETTLEMENT = date(2026, 9, 8)
 YEAR_BASIS = 365.25
 
@@ -83,8 +83,7 @@ def bond_cashflows(settlement, maturity, coupon_pct):
 
 
 # ---------------------------------------------------------
-# Nelson-Siegel-Svensson continuously compounded
-# zero-coupon rate curve.
+# Nelson-Siegel-Svensson continuously compounded zero-coupon rate curve.
 # ---------------------------------------------------------
 def svensson_rate(t, p):
     """
@@ -332,6 +331,8 @@ curve = build_discount_curve(
     INPUT_FILE,
     SETTLEMENT
 )
+
+curve.to_excel("Zero_Coupon_Yield_Curve.xlsx", index=False)
 
 pd.set_option(
     "display.max_rows",
