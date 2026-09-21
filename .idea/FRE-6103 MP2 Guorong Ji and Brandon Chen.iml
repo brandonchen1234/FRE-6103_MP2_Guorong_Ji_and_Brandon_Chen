@@ -5,7 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/models" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.14 (FRE-6103_MP2_Guorong_Ji_and_Brandon_Chen)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="~\PycharmProjects\PythonProject\FRE-6103 MP2 Guorong Ji and Brandon Chen\.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
